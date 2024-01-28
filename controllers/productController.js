@@ -25,32 +25,42 @@ exports.getProductById = async (req, res) => {
   }
 };
 
-// exports.addProduct = async (req, res) => {
-//   try {
-//     const { name, type, price, imageUrl, description, category, discount } =
-//       req.body;
+exports.addProduct = async (req, res) => {
+  try {
+    const {
+      productSellerName,
+      productVerified,
+      productUploadDate,
+      productName,
+      productModel,
+      productPrice,
+      productQuantity,
+      imageUrl,
+      productCity,
+      productDistrict,
+      productContactNumber,
+      productAreaCode,
+    } = req.body;
 
-//     // Convert data to lowercase
-//     const lowercaseName = name.toLowerCase();
-//     const lowercaseType = type.toLowerCase();
-//     const lowercaseDescription = description.toLowerCase();
-//     const lowercaseCategory = category.toLowerCase();
+    const product = new Product({
+      productSellerName: productSellerName,
+      productVerified: productVerified,
+      productUploadDate: productUploadDate,
+      productName: productName,
+      descrproductModeliption: productModel,
+      productPrice: productPrice,
+      productQuantity: productQuantity,
+      imageUrl: imageUrl,
+      productCity: productCity,
+      productDistrict: productDistrict,
+      productContactNumber: productContactNumber,
+      productAreaCode: productAreaCode,
+    });
 
-//     const product = new Product({
-//       name: lowercaseName,
-//       type: lowercaseType,
-//       price,
-//       imageUrl,
-//       description: lowercaseDescription,
-//       category: lowercaseCategory,
-//       discount,
-//       rating,
-//     });
-
-//     await product.save();
-//     res.status(201).json({ success: true });
-//   } catch (error) {
-//     console.error("Error adding product:", error.message);
-//     res.status(500).json({ error: "An error occurred" });
-//   }
-// };
+    await product.save();
+    res.status(201).json({ success: true });
+  } catch (error) {
+    console.error("Error adding product:", error.message);
+    res.status(500).json({ error: "An error occurred" });
+  }
+};

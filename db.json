@@ -1,13 +1,68 @@
 {
-  "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
-  ],
-  "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "products" :[
+    {
+        "id": 1,
+        "sellerName": "KKF kasturi krishi farm",
+        "productName": "channa",
+        "productModel": "Desi",
+        "price": "4500",
+        "quantity": "50",
+        "location": "Udaipuara Raisen (M.P)",
+        "contact": "9898989898",
+        "areaCode": "464772",
+        "imageUrl":["https://5.imimg.com/data5/SELLER/Default/2022/4/WP/LX/AP/127314116/desi-chana-500x500-1000x1000.jpg",
+       "https://5.imimg.com/data5/ANDROID/Default/2022/5/ZJ/TY/NF/127314116/product-jpeg-1000x1000.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2022/4/WP/LX/AP/127314116/desi-chana-500x500-1000x1000.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2022/4/WP/LX/AP/127314116/desi-chana-500x500-1000x1000.jpg"]
+
+    },
+    {
+        "id": 2,
+        "sellerName": "Dhakad Farms",
+        "productName": "Wheat",
+        "productModel": "Wheat 303",
+        "price": "2500",
+        "quantity": "60",
+        "location": "Deori Raisen (M.P)",
+        "contact": "9898989898",
+        "areaCode": "464773",
+        "imageUrl":["https://5.imimg.com/data5/SELLER/Default/2023/6/314543812/CO/JG/DH/132411535/givu-seeds-500x500.jpg",
+       "https://5.imimg.com/data5/SELLER/Default/2023/6/314543809/WT/CD/EK/132411535/givu-seeds-1000x1000.webp",
+        "https://eng.ruralvoice.in/uploads/images/2023/02/image_750x_63f4493d63c11.jpg",
+        "https://www.world-grain.com/ext/resources/Article-Images/2021/04/Wheat_Photo_cred_adobestock_E.jpg?height=667&t=1694805252&width=1080"]
+
+    },
+    {
+        "id": 3,
+        "sellerName": "Hariom Farms",
+        "productName": "Hybrid Brown Pusa Vakula 1718 Paddy Seed",
+        "productModel": "Wheat 303",
+        "price": "150000",
+        "quantity": "30",
+        "location": "Deori Raisen (M.P)",
+        "contact": "9898989898",
+        "areaCode": "464776",
+        "imageUrl":["https://5.imimg.com/data5/SELLER/Default/2023/8/332970825/IH/UL/IS/78154668/paddy-crop-seeds-500x500.jpg",
+       "https://gachwala.in/wp-content/uploads/2023/02/paddy-harvest-golden-yellow-paddy-hand-farmer-carrying-paddy-hand-rice.jpg",
+        "https://apseeds.ap.gov.in/Assets/Images/paddy.jpg",
+        "https://blog.apnikheti.com/wp-content/uploads/2019/02/New-Project-2-1.jpg"]
+
+    },
+    {
+        "id": 4,
+        "sellerName": "Neeraj Kumar",
+        "productName": "Arhar Seeds",
+        "productModel": "Wheat 303",
+        "price": "10000",
+        "quantity": "30",
+        "location": "bareli Raisen (M.P)",
+        "contact": "8817173348",
+        "areaCode": "464776",
+        "imageUrl":["https://5.imimg.com/data5/LH/GU/MY-37091599/arhar-seeds-500x500.jpg",
+       "https://5.imimg.com/data5/TL/QQ/MY-37091599/arhar-seeds-1000x1000.jpg",
+        "https://rukminim2.flixcart.com/image/850/1000/kwtkxow0/plant-seed/o/3/9/1-arhar-dal-seeds-priyaseeds-original-imag9f2gaxsadgzb.jpeg?q=90&crop=false",
+        "https://m.media-amazon.com/images/I/71YZ3RtAX+L._AC_UF1000,1000_QL80_.jpg"]
+
+    }
+  ]
 }

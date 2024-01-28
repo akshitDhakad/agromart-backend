@@ -1,11 +1,19 @@
 const mongoose = require("mongoose");
 
 const productSchema = new mongoose.Schema({
-  proudctSellerName: {
+  productSellerName: {
     type: String,
     required: true,
   },
-  proudctName: {
+  productVerified: {
+    type: Boolean,
+    required: true,
+  },
+  productUploadDate: {
+    type: String,
+    required: true,
+  },
+  productName: {
     type: String,
     required: true,
   },
